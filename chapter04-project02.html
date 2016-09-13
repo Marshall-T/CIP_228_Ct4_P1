@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Chapter 4</title>
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="chapter04-project02.css" />
+</head>
+<body>
+    <fieldset>
+<!--            <legend title="Search">Search</legend>  -->
+        <input type="text" name="search" placeholder="Search Titles" id="s-name"/>&nbsp&nbsp
+        <input type="button" value="Search"/>
+    </fieldset>
+
+    <fieldset>
+        <form method="post" action="http://www.randyconnolly.com/tests/process.php" title="Meeting Details">
+            <select class=search name="Actions">
+                <option value=0>Actions</option>
+                <option value=1>Archive</option>
+                <option value=2>Delete</option>
+            </select>
+            <input type="submit" value="Apply"/>
+            <select class=search name="Genre">
+                <option value=0>Baroque</option>
+                <option value=1>Renaissance</option>
+                <option value=2>Realism</option>
+            </select>
+            <input type="submit" value="Filter"/>
+        </form>
+    </fieldset>
+
+    <fieldset class=art>
+        <table>
+            <th colspan=7>Paintings</th>
+            <tr class="title">
+                <td></td>
+                <td></td>
+                <td>Title</td>
+                <td>Artist</td>
+                <td>Year</td>
+                <td>Genro</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="Morat[]" value="10" id="Morat"/></td>
+                <td><img src="images/05030.jpg" title="Death of Morat" alt="Morat lying on a bed" /></td>
+                <td>Death of Morat</td>
+                <td>David, Jaques Louis</td>
+                <td>1793</td>
+                <td>Romanticism</td>
+<!-- button needs radius -->
+                <td><button><a href="#"><img src="images/edit16.png" title="edit" alt="edit botton" />Edit</a></button>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="Eleanor[]" value="20" id="Eleanor"/></td>
+                <td><img src="images/120010.jpg" title="Portrait of Eleanor of Toledo" alt="A child and Lady"/></td>
+                <td>Portrait of Eleanor of Toledo</td>
+                <td>Bronzino, Angelo</td>
+                <td>1545</td>
+                <td>Mannoris</td>
+                <td><button><a href="#"><img src="images/edit16.png" title="edit" alt="edit botton" />Edit</a></button>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="Liberty[]" value="30" id="Liberty"/></td>
+                <td><img src="images/07020.jpg" title="Liberty Leading People" alt="Drummer Bugle Core"/></td>
+                <td>Liberty Leading the People</td>
+                <td>Delacroix, Eugene</td>
+                <td>1830</td>
+                <td>Romanticism</td>
+                <td><button><a href="#"><img src="images/edit16.png" title="edit" alt="edit botton" />Edit</a></button>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="Whistler[]" value="40" id="Whistler"/></td>
+                <td><img src="images/13030.jpg" title="Arrangement in Grey and Black" alt="Whistler's Mother"/></td>
+                <td>Arrangement in Grey and Black</td>
+                <td>Whistler, James Abbott</td>
+                <td>1871</td>
+                <td>Realism</td>
+                <td><button><a href="#"><img src="images/edit16.png" title="edit" alt="edit botton" />Edit</a></button>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="Mademoiselle[]" value="50" id="Mademoiselle"/></td>
+                <td><img src="images/06010.jpg" title="Mademoiselle CarolineReviere" alt="A lady in a white dress"/></td>
+                <td>Mademoiselle Caroline Reviere</td>
+                <td>Igres, Jean-Auguste</td>
+                <td>1806</td>
+                <td>Neo-Classicism</td>
+                <td><button><a href="#"><img src="images/edit16.png" title="edit" alt="edit botton" />Edit</a></button>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>

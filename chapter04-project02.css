@@ -1,0 +1,33 @@
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+   padding: 1em;}
+
+fieldset {
+   margin: .2em 5em;  
+   border: solid .1em #0000F0;
+   background: #F0F0FF;   
+}
+
+.art {
+   margin: 1em 5em;
+   background: #FAFAFF;
+   }
+
+th {
+   background: #C0C0FF
+}
+td {
+   border-bottom: solid .2em #0000F0;
+}
+
+.title {
+   background: #F0F0FF;
+   border-bottom: #0000F0;
+   
+}
