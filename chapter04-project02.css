@@ -3,31 +3,44 @@
 h1, h2, h3, nav, footer {
  font-family: Georgia, Cambria, "Times New Roman", serif;
 }
+
 body {
    font-family: "Lucida Sans", Verdana, Arial, sans-serif;
    font-size: 100%;
-   padding: 1em;}
+   padding: 1em;
+}
 
 fieldset {
-   margin: .2em 5em;  
-   border: solid .1em #0000F0;
+   margin: .5em 5em;  
+   border: solid .1em #C0C0FF;
    background: #F0F0FF;   
+}
+
+table {
+      border-collapse: collapse;
 }
 
 .art {
    margin: 1em 5em;
    background: #FAFAFF;
-   }
+}
 
 th {
-   background: #C0C0FF
+   background: #C0C0FF;
+   padding: .6em;
 }
+
 td {
-   border-bottom: solid .2em #0000F0;
+   border-top: solid .1em #C0C0FF;
+   margin: 0em;
+   padding: .3em;
 }
 
 .title {
    background: #F0F0FF;
-   border-bottom: #0000F0;
-   
+}
+
+button {
+   border: solid .1em;
+   border-radius: .3em;
 }
