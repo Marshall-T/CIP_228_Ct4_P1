@@ -11,7 +11,7 @@ body {
 table {
    width: 20em;
    height: 17em;
-   margin: 10em 0em;
+   margin: 10em 0em -5em 0em;
    background-color: #FFFFFF;
    position: relative;
    left: 38%;
@@ -28,7 +28,6 @@ caption {
    background-color: #A0F0A0;
    margin: .3em .3em 0em .3em;
    padding: .5em;
-   size: 8em 8em;
 }
 
 td {
@@ -44,22 +43,14 @@ td {
    background-color: #A0F0A0;
    }
 
-/*
-td:nth-child(3) {
-   color: #FFFFFF;
-   background-color: #A0F0A0;
-}
-*/
-
 .inForm {
    height: 15em;
    width: 25em;
    border: solid .1em;
    background-color: #806020;
    position: relative;
-   left: 35%;
-   transform: translate(-0%, -548);
-
+   left: 33%;
+   transform: translate( 0%-38);
 }
 
 form {
